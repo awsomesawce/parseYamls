@@ -1,0 +1,50 @@
+{
+  "name": "parse Yamls",
+  "version": "0.0.2",
+  "description": "Parse yaml, json5, and other serialization formats to json",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "minimal",
+    "parsing",
+    "json",
+    "yaml"
+  ],
+  "author": "Carl C.",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^8.6.3",
+    "builtin-modules": "^3.2.0",
+    "chokidar": "^3.5.2",
+    "colors": "^1.4.0",
+    "cosmiconfig": "^7.0.1",
+    "dotenv": "^10.0.0",
+    "execa": "^5.1.1",
+    "fs-extra": "^10.0.0",
+    "globby": "^12.0.2",
+    "js-yaml": "^4.1.0",
+    "json5": "^2.2.0",
+    "jszip": "^3.7.1",
+    "micromatch": "^4.0.4",
+    "set-value": "^4.1.0",
+    "shelljs": "^0.8.4",
+    "underscore": "^1.13.1",
+    "webpack": "^5.58.2"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.3",
+    "@types/node": "^16.10.9",
+    "esbuild": "^0.13.6",
+    "grunt-cli": "^1.4.3",
+    "jest": "^27.2.5",
+    "prettier-standard": "^13.0.6",
+    "snowpack": "^3.8.8",
+    "standard": "^16.0.4",
+    "ts-node": "^10.3.0",
+    "tslib": "^2.3.1",
+    "typescript": "^4.4.4"
+  }
+}
